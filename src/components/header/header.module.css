@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header {
  height: 64px;
  background: #2196F3;
@@ -35,4 +36,43 @@
 
 .link_active {
  background: #1E88E5;
+=======
+.header {
+ height: 64px;
+ background: #2196F3;
+ box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+ position: sticky;
+}
+
+.header_wrapper {
+ margin: 0 auto;
+ padding: 0 62px;
+ max-width: 1440px;
+ display: flex;
+}
+
+.link {
+ font-size: 14px;
+ box-sizing: border-box;
+ padding: 23px;
+ height: 64px;
+ text-decoration: none;
+ color: #ffffff;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+@media (max-width: 630px) {
+ .link {
+  width: 150px;
+ }
+ .header_wrapper {
+  justify-content: center;
+ }
+}
+
+.link_active {
+ background: #1E88E5;
+>>>>>>> dce69a906b0c0d696eb744df290099e4b9942212
 }
