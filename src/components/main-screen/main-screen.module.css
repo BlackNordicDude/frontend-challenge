@@ -1,0 +1,19 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_wrapper {
+    margin: 0 auto;
+    padding: 26px 37px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1440px;
+}
+
+.load {
+    margin-bottom: 31px;
+}
