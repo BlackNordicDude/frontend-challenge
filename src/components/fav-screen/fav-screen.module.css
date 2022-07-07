@@ -8,7 +8,6 @@
 .fav_wrapper {
     margin: 0 auto;
     padding: 26px 37px;
-    height: 95vh;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     align-content: start;

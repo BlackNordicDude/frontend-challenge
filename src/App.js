@@ -20,7 +20,7 @@ function App() {
                 <Route path='/favorite' exact={true}>
                     <FavScreen/>
                 </Route>
-                <Route path='/' exact={true}>
+                <Route path='/frontend-challenge/' exact={true}>
                     <MainScreen/>
                 </Route>
             </Switch>

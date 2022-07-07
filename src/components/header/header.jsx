@@ -6,7 +6,7 @@ const Header = () => {
         <header className={style.header}>
             <div className={style.header_wrapper}>
                 <NavLink
-                    to='/'
+                    to='/frontend-challenge/'
                     exact={true}
                     className={style.link}
                     activeClassName={style.link_active}
